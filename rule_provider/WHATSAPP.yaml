@@ -27,7 +27,7 @@ payload:
  - DOMAIN-SUFFIX,whatsapp.tv
  - DOMAIN-SUFFIX,whatsappbrand.com
 
-# PORT TCP dan UDP WA
+ # PORT TCP dan UDP WA
  - DST-PORT,3478
  - DST-PORT,4244
  - DST-PORT,5222
@@ -41,7 +41,7 @@ payload:
  - DST-PORT,50318
  - DST-PORT,59234
 
-# PORT X
+ # PORT X
  - DST-PORT,11112
  - DST-PORT,12222
  - DST-PORT,25566
@@ -51,3 +51,7 @@ payload:
  - DOMAIN-SUFFIX,gbapps.net
  - DOMAIN-SUFFIX,fmmods.com
  
+ # WA DOCKER
+ - DOMAIN-SUFFIX,docker.whatsapp.biz
+ - DOMAIN-SUFFIX,dl.bintray.com
+ - DOMAIN-SUFFIX,akamai.bintray.com
