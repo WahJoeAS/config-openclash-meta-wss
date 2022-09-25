@@ -2,7 +2,7 @@
 proxies:
 
 #========= META SSHWS atau WSS =========
-- name: SSH-WS-AKUN-HOWDY
+- name: HOWDY-TROJAN
   server: bug IP
   port: 443
   type: trojan
@@ -11,7 +11,7 @@ proxies:
   sni: bug.com
   network: ws
   ws-opts:
-    path: ws://bug.com/howdy
+    path: wss://bug.com/howdy
     headers:
       Host: server akun
   udp: true
@@ -27,3 +27,7 @@ proxies:
   alpn:
    - http/1.1
   network: ws
+  ws-opts:
+    path: wss://bug.com/trojan
+    headers:
+      Host: serverjagoan
