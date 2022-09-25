@@ -39,3 +39,7 @@ payload:
  - DST-PORT,50318
  - DST-PORT,59234
  
+ # WA MOD
+ - DOMAIN-SUFFIX,yowayousef.com
+ - DOMAIN-SUFFIX,gbapps.net
+ - DOMAIN-SUFFIX,fmmods.com
